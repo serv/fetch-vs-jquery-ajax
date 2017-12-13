@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge, chrome=1" />
+    <title>fetch() vs $.ajax()</title>
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+
+    <ol>
+      <li>Download the package</li>
+      <li>$ yarn</li>
+      <li>Open index.html in Chrome or Firefox</li>
+      <li>Open developer console</li>
+      <li>Wait for 3 min for the test to finish</li>
+      <li>Example of the final result looks like this</li>
+    </ol>
+
+    <img src='result.png'>
+
+    <div id='fetch'></div>
+    <div id='jquery-ajax'></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="node_modules/whatwg-fetch/fetch.js"></script>
+    <script src="node_modules/lodash/lodash.js"></script>
+    <script src="node_modules/platform/platform.js"></script>
+    <script src="node_modules/benchmark/benchmark.js"></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "fetch-vs-jquery-ajax",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jason Kim",
+  "license": "MIT",
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "whatwg-fetch": "^2.0.3"
+  }
+}
